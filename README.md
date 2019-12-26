@@ -17,19 +17,20 @@ var video = videojs('test_video');
 //load the marker plugin
 video.series({
   name : 'Series',
-  seasons: [{
-       'season_id' : '1',
+  seasons: [
+     {
        'episodes': [
             { thumb : "http:thumbnail link", id : "1", link : "http:video link" },
-            { thumb : "http:thumbnail link", id : "2", link : "http:video link" }]
+            { thumb : "http:thumbnail link", id : "2", link : "http:video link" }
+       ]
      },
      {
-       'season_id' : '2',
        'episodes': [
             { thumb : "http:thumbnail link", id : "1", link : "http:video link" },
-            { thumb : "http:thumbnail link", id : "2", link : "http:video link" }]
-      
-     }]
+            { thumb : "http:thumbnail link", id : "2", link : "http:video link" }
+       ]
+     }
+  ]
 });
 ```
 
