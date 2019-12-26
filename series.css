@@ -1,0 +1,509 @@
+.block_nextdtls .thumbinner .nexttext{
+    height: 15vh;
+    overflow: hidden;
+}
+.block_nextdtls .thumbinner .hover-icon{
+    background: rgba(0,0,0,.5803921568627451);
+    position: absolute;
+    height: 50px;
+    width: 50px!important;
+    text-align: center;
+    top: 46%;
+    left: 19%;
+    border-radius: 50%;
+}
+.block_nextdtls .thumbinner .hover-icon:hover{
+    -webkit-animation: scale-btn-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-btn-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.block_nextdtls .thumbinner .hover-icon svg{
+    -webkit-filter: contrast(4) invert(1);
+    -moz-filter: contrast(4) invert(1);
+    -o-filter: contrast(4) invert(1);
+    -ms-filter: contrast(4) invert(1);
+    filter: contrast(4) invert(1);
+   	width: 2.5em!important;	
+}
+.Series_dtl .thumbinner .hover-icon{
+	background: rgba(0,0,0,.5803921568627451);
+	position: absolute;
+	height: 50px;
+	width: 50px!important;
+	text-align: center;
+	top: 37%;
+	left: 15%;
+	border-radius: 50%;
+}
+
+.Series_dtl  .thumbinner .hover-icon:hover{
+    -webkit-animation: scale-btn-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-btn-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.Series_dtl .thumbinner .hover-icon svg{
+    -webkit-filter: contrast(4) invert(1);
+    -moz-filter: contrast(4) invert(1);
+    -o-filter: contrast(4) invert(1);
+    -ms-filter: contrast(4) invert(1);
+    filter: contrast(4) invert(1);
+    width: 2.5em !important;
+    margin-left: -2px;	
+}
+
+svg.seriesicon {
+    -webkit-filter: contrast(4) invert(1);
+    -moz-filter: contrast(4) invert(1);
+    -o-filter: contrast(4) invert(1);
+    -ms-filter: contrast(4) invert(1);
+    filter: contrast(4) invert(1);
+    width: 2.5em !important;
+    margin: 0 1.8em!important;
+    height: 100%;
+    text-align: center;
+}
+.video-js .vjs-button.vjs-series-button {
+    order: 10;
+}
+
+.vjs-series-button 
+.vjs-menu ul.vjs-menu-content{
+	width:100% !important;
+	height:100% !important;
+	max-height:100% !important;
+	background:none !important;
+	background-color:none !important;
+	bottom:0 !important;
+	top:0 !important;
+	border-radius: 4px;
+}
+
+.vjs-series-button .vjs-menu 
+.vjs-menu-content li.vjs-menu-item{
+    height: 56px;
+    max-height:56px !important;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding:6px 14px;
+    margin: 0;	
+}
+
+
+/*final_style_series_vidlix*/
+.vjs-seasons-menu.vjs-lock-showing{
+	opacity:10 !important;
+	visibility:visible;
+}
+.vjs-seasons-menu{
+	display:none;
+	opacity:0;
+	background:rgba(51, 51, 51, 0.97);
+	border-radius:4px;
+    z-index: 5;
+    position: absolute;
+    right: 23vh;
+    width: 50.5em;
+    height: 40.3em;
+    bottom: 9em;
+    visibility:hidden;
+}
+
+.vjs-seasons-menu ul.vjs-menu-content{
+	height: 100% !important;
+	width: 100% !important;
+	float: left;
+	position: absolute !important;
+	bottom: 0 !important;
+	right: 0 !important;
+}
+
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one{
+	width:100%;
+	height:100%;
+	display:block;
+}
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one 
+ul.vjs-menu-content{
+	position:relative;
+	width:100%;
+	height:100%;
+	display:block;
+}
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one 
+ul.vjs-menu-content li.vjs-menu-item{
+    padding: 18px 34px;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px #060606b3;
+}
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one 
+ul.vjs-menu-content li.vjs-menu-item:hover{
+	background:rgba(255,255,255,.1) !important;
+	cursor:pointer 
+}
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one 
+ul.vjs-menu-content .vjs-menu-item span.vjs-control-text{
+	
+}
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one 
+ul.vjs-menu-content .vjs-menu-item svg{
+	-webkit-filter: contrast(4) invert(1);
+	-moz-filter: contrast(4) invert(1);
+	-o-filter: contrast(4) invert(1);
+	-ms-filter: contrast(4) invert(1);
+	filter: contrast(4) invert(1);
+    width: 1.8em;
+    text-align: end;
+    float: right;
+}
+
+.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one 
+ul.vjs-menu-content .vjs-menu-item span.vjs-menu-item-label{
+		
+}
+
+/*next_opentab_with-thumb*/
+.vjs-episodes-submenu{
+	width:100% !important;
+	height:100% !important;
+	max-height:100% !important;
+	background:none !important;
+	background-color:none !important;
+	border-radius:4px;
+}
+.vjs-episodes-submenu ul.vjs-menu-content{
+	width:100% !important;
+	height:100% !important;
+	max-height:100% !important;
+	background:none !important;
+	background-color:none !important;
+	border-radius:4px;
+}
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-submenu-title{
+	display:block;
+	padding:14px 34px;
+}
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-submenu-title{
+	display:block;
+	width: 100%;
+	overflow: hidden;
+	padding:6px 14px;
+} 
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-submenu-title span.vjs-menu-item-label{
+    display: inline-block!important;
+    float: left;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #eee;
+    text-transform: capitalize;
+    width:auto !important;
+    cursor:pointer !important;
+}
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-submenu-title svg{
+	-webkit-filter: contrast(4) invert(1);
+	-moz-filter: contrast(4) invert(1);
+	-o-filter: contrast(4) invert(1);
+	-ms-filter: contrast(4) invert(1);
+	filter: contrast(4) invert(1);
+    width: 1.9em;
+    text-align: end;
+    float: left;
+}
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-menu-item{
+    height: 56px;
+    max-height:56px !important;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding:6px 14px;
+    margin: 0;
+    cursor:pointer;
+
+}
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-menu-item span{
+	float: left;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#eee;
+}
+
+.vjs-episodes-submenu ul.vjs-menu-content li.vjs-menu-item .Series_dtl{
+	width:100% !important;
+	height:auto;
+	float:left;
+	display:none;
+	opacity:0;
+}
+
+.vjs-episodes-submenu ul.vjs-menu-content 
+li.vjs-menu-item .Series_dtl .thumbinner{
+	width: 36%;
+	display: inline-block;
+	overflow: hidden;
+	margin:0 20px 0 8px;
+	border-radius: 4px;
+	float:left;
+}
+.vjs-episodes-submenu ul.vjs-menu-content 
+li.vjs-menu-item .Series_dtl .thumbinner img{
+	height:100%;
+	width:100%;
+	display:block;
+}
+
+.vjs-episodes-submenu ul.vjs-menu-content 
+li.vjs-menu-item .Series_dtl .des{
+	width:54%;
+	display:inline-block;
+	float:left;
+	color:#fff;
+	font-size:13px !important;
+	line-height:18px;
+	font-weight:400;
+}
+
+
+
+/*Selected-thumb*/
+.vjs-episodes-submenu ul.vjs-menu-content 
+li.vjs-menu-item.vjs-menuitem-selected .Series_dtl{
+	display:block;
+	opacity:1;
+	height:150px;
+}
+
+.vjs-episodes-submenu ul.vjs-menu-content 
+li.vjs-menu-item.vjs-menuitem-selected:first-child{
+	-webkit-animation:scale-up-ver-top .1s cubic-bezier(.39,.575,.565,1.000) both;
+	animation:scale-up-ver-top .1s cubic-bezier(.39,.575,.565,1.000) both;
+}
+
+.vjs-episodes-submenu ul.vjs-menu-content 
+li.vjs-menu-item.vjs-menuitem-selected{
+	background-color:rgba(16, 15, 15, 0.93) !important;
+	background:#100f0f !important;
+	height:177px;
+	max-height:177px !important;
+	-webkit-animation: scale-up-ver-bottom 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-ver-bottom 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+/*right-selected_li*/
+.vjs-seasons-menu ul.vjs-menu-content 
+.vjs-episodes-submenu.vjs-submenu-selected {
+	display:block
+}
+.vjs-seasons-menu ul.vjs-menu-content 
+.vjs-episodes-submenu {
+	display:none;
+}
+.vjs-seasons-menu ul.vjs-menu-content .vjs-episodes-submenu {
+	-webkit-animation: slide-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/*right-selected_li*/
+.vjs-seasons-menu ul.vjs-menu-content 
+.vjs-seasons-submenu-one {
+	display:none;
+}
+.vjs-seasons-menu ul.vjs-menu-content 
+.vjs-seasons-submenu-one.vjs-submenu-selected {
+	display:block;
+}
+.vjs-seasons-menu ul.vjs-menu-content 
+.vjs-seasons-submenu-one{
+	-webkit-animation: slide-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+@media only screen and (max-width:1024px){
+	.vjs-seasons-menu {
+		height: 28em !important;
+		bottom: 4em !important;
+	}
+	.vjs-seasons-menu ul.vjs-menu-content .vjs-seasons-submenu-one
+	ul.vjs-menu-content li.vjs-menu-item {
+		text-align: left !important;
+	}
+	.vjs-episodes-submenu ul.vjs-menu-content li.vjs-menu-item span {
+		text-align: left;
+	}
+	.vjs-episodes-submenu ul.vjs-menu-content li.vjs-menu-item .Series_dtl .des {
+		text-align: left;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:568px){
+	.vjs-seasons-menu {
+		height: 28em !important;
+		bottom: 4em !important;
+	}
+
+}
+
+@media only screen and (max-width:630px) {
+	.vjs-seasons-menu {
+		right: 5% !important;
+		width: 33.5em !important;
+	}
+	.vjs-episodes-submenu ul.vjs-menu-content 
+	li.vjs-menu-item .Series_dtl .des {
+		width: 48% !important;
+		font-size: 12px !important;
+		line-height: 12px !important;
+
+	}
+	.vjs5-hola-skin .vjs-control-bar {
+		height: 8.2em !important;
+		padding: 0 0em !important;
+	}
+	.vjs5-hola-skin .vjs-progress-control {
+		height: 1.6em !important;
+		margin: 0 0.5em !important;
+	}
+	.vjs5-hola-skin .vjs-progress-control {
+		height: 1.6em !important;
+		margin: 0 0.5em !important;
+	}
+	.vjs-control.vjs-next-menu {
+		width:93% !important;
+		left: 4% !important;
+	}
+	.vjs-subtitles-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+		width: 3em !important;
+	}
+	.vjs5-hola-skin .vjs-play-control {
+		width: 2.4em;
+	}
+	.vjs5-hola-skin .vjs-fullscreen-control {
+		margin-right: 0.3em !important;
+	}
+}
+
+/*li-all-child*/
+@-webkit-keyframes scale-up-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+
+@keyframes scale-up-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+
+
+
+
+/*li-First-child*/
+@-webkit-keyframes scale-up-ver-top{
+	0%{
+		-webkit-transform:scaleY(.4);
+		transform:scaleY(.4);
+		-webkit-transform-origin:100% 0;
+		transform-origin:100% 0}
+	100%{
+		-webkit-transform:scaleY(1);
+		transform:scaleY(1);
+		-webkit-transform-origin:100% 0;
+		transform-origin:100% 0
+	}
+}
+@keyframes scale-up-ver-top{
+	0%{
+		-webkit-transform:scaleY(.4);
+		transform:scaleY(.4);
+		-webkit-transform-origin:100% 0;
+		transform-origin:100% 0;
+	}
+	100%{
+		-webkit-transform:scaleY(1);
+		transform:scaleY(1);
+		-webkit-transform-origin:100% 0;
+		transform-origin:100% 0
+	}
+}
+
+
+/* left-next_tab*/
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+/*right-next-tab*/
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
